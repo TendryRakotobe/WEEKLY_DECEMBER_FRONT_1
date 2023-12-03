@@ -598,22 +598,24 @@ input:focus {
 }
 
 .pricing .container {
+    margin-top:-40px;
     border-radius: 30px;
     border: 1px solid #EBEBEB;
     background: #FFF;
     box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
-    padding:50px;
+    padding:10px 50px 50px 50px;
 }
 
 .pricing .right .container {
     background-image:url("/images/pourcentage-icon.png");
     background-repeat: no-repeat;
-    background-position: 200px 50px;
+    background-position: 300px 50px;
     background-size:50px 50px;
 }
 
 .pricing ul {
     list-style-image:url("images/Vector.png") ;
+    padding-left:10px;
 }
 
 .pricing li {
@@ -636,4 +638,23 @@ input:focus {
     display:flex;
     align-items:center;
     gap:10px;
+}
+
+.pricing h2 {
+    font-size:40px;
+}
+
+.pricing .title p{
+    font-size:25px;
+}
+
+.pricing button {
+    width:100%;
+    background-color: #EAEAEA;
+    color:#303030;
+}
+
+.pricing button:hover {
+    background-color: #303030;
+    color:white;
 }
